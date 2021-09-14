@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\CFDI.cs" />
+    <Compile Include="Builder\CFDIConcreteBuilder.cs" />
+    <Compile Include="Builder\CFDIDTO.cs" />
+    <Compile Include="Builder\DirectorCFDI.cs" />
+    <Compile Include="Builder\IBuilderCFDI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
